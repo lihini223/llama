@@ -14,7 +14,7 @@ def main(
     temperature: float = 0.6,
     top_p: float = 0.9,
     max_seq_len: int = 512,
-    max_batch_size: int = 8,
+    max_batch_size: int = 2,
     max_gen_len: Optional[int] = None,
 ):
     """
